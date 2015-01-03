@@ -26,9 +26,9 @@
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
-    <div>
-        <div id="OGPreviews">
-        </div>
+
+    <div id="OGPreviews">
     </div>
-<WebPartPages:AllowFraming runat="server" />
+
+    <WebPartPages:AllowFraming runat="server" />
 </asp:Content>

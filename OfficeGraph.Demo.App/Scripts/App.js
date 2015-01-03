@@ -38,7 +38,7 @@
                     });
 
                     //build an image
-                    o.pic = _spPageContextInfo.webAbsoluteUrl + '/_layouts/15/userphoto.aspx?size=s&accountname=' + o.username;
+                    o.pic = _spPageContextInfo.webAbsoluteUrl + '/_layouts/15/userphoto.aspx?size=m&accountname=' + o.username;
 
                     results.push(o);
                 })
